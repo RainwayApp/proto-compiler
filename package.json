@@ -10,9 +10,7 @@
     "run": "ts-node ./index.ts",
     "build": "tsc"
   },
-  "bin": {
-    "proto-compiler": "./index.ts"
-  },
+  "bin": "./bin/index.js",
   "dependencies": {
     "@types/lodash": "^4.14.123",
     "@types/node": "^11.13.7",
