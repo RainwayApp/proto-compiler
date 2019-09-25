@@ -1,0 +1,5 @@
+{
+    "in": "../client/proto/",
+    "outFile": "../client/proto/models.schema",
+    "ext": ".proto"
+}

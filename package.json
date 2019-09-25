@@ -1,0 +1,27 @@
+{
+  "name": "proto-compiler",
+  "version": "1.0.0",
+  "description": "Concat proto2 protocol buffer schemas and remove duplicate blocks.",
+  "main": "index.ts",
+  "author": "Evan Banyash",
+  "license": "RESTRICTED",
+  "private": true,
+  "scripts": {
+    "run": "ts-node ./index.ts",
+    "build": "tsc"
+  },
+  "bin": {
+    "proto-compiler": "./index.ts"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.123",
+    "@types/node": "^11.13.7",
+    "@types/shelljs": "^0.8.5",
+    "@types/yargs": "^13.0.0",
+    "lodash": "^4.17.11",
+    "shelljs": "^0.8.3",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.4",
+    "yargs": "^13.2.2"
+  }
+}
